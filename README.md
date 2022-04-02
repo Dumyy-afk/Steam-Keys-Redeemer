@@ -1,6 +1,7 @@
 # Steam-Keys-Redeemer
 A small piece of code to activate steam keys automatically, through chat or local file.
 
+Made by the owner of https://www.wulfsgames.com
 
 Hey! Thanks for picking up WulfsGames.com's Auto-Reedemer app.
 
