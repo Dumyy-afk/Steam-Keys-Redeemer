@@ -22,3 +22,5 @@ b) Game Name | XXXXX-XXXXX-XXXXX
 After you've set up and double checked everything, run start.bat and you're good to go.
 
 :)
+
+Discord for support: Wulf#9728
