@@ -1,0 +1,4 @@
+// Add your key code here, with or without name infront of the keys
+// One key per line, and the sepparator between the Name of the game and the key cde must be "|"
+// If this file is not empty, the activating-through-chat system won't work. Make sure you empty it
+// If you want to send keys to your bot through message in order for it to activate them.
