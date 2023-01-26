@@ -23,4 +23,4 @@ After you've set up and double checked everything, run start.bat and you're good
 
 :)
 
-Discord for support: Wulf#9728
+Discord for support: Wulf#9395
