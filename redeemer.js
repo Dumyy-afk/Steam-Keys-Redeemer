@@ -14,6 +14,7 @@ const logOnOptions = {
 // Perform login
 bot.logOn(logOnOptions);
 
+const codeRegexPattern = /\b[A-Z0-9]{5}-[A-Z0-9]{5}-[A-Z0-9]{5}\b/g;
 bot.on('loggedOn', () => {
 	console.log('We`re rollin` in!');
 	bot.setPersona(SteamUser.EPersonaState.Online);
@@ -37,7 +38,11 @@ bot.on('loggedOn', () => {
 
 		// Separate by identifier
 		for (let x = 0; x < localGames.length; x++) {
-			games.push(localGames[x].trim().substr(-17).trim());
+			let code = localGames[x].match(regex);
+
+			if (code && code.length > 0) {
+				games.push(code[0]);
+			}
 		}
 
 		status = 'busy';
