@@ -14,7 +14,7 @@ const logOnOptions = {
 // Perform login
 bot.logOn(logOnOptions);
 
-const codeRegexPattern = /\b[A-Z0-9]{5}-[A-Z0-9]{5}-[A-Z0-9]{5}\b/g;
+const regex = /\b[A-Z0-9]{5}-[A-Z0-9]{5}-[A-Z0-9]{5}\b/g;
 bot.on('loggedOn', () => {
 	console.log('We`re rollin` in!');
 	bot.setPersona(SteamUser.EPersonaState.Online);
